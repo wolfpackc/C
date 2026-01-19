@@ -1,4 +1,4 @@
-# winsocks # ¿Dónde vive WinSock?
+# winsocks  ¿Dónde vive WinSock?
 En user mode
 
 Principalmente en:
