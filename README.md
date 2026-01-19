@@ -18,4 +18,4 @@ socket() → syscall → kernel TCP/IP
 
 socket() → WinSock (ws2_32.dll) → kernel TCP/IP
 
-** pero para ser muy claros tcp/ip esta realmente en el kernel **
+**pero para ser muy claros tcp/ip esta realmente en el kernel**
