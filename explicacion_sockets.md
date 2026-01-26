@@ -11,3 +11,4 @@ Estas funciones suelen empezar por "f" como por ejemplo:
                               ->fprintf
                               ->fputs
 estas funciones requieren de un parametro FILE *  
+en la compilacion se traducen a funciones kernel.
