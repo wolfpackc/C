@@ -32,3 +32,6 @@ oeprativo LINUX no va saber que narices significa eso. por lo tanto crasheo TOTA
 resumen: 
 COMPILADOR WINDOWS--LIBC PARA WINDOWS--> SO WINDOWS/
 COMPILADOR DEBIAN--LIBC PARA DEBIAN--->SO LINUX
+
+
+## “Las librerías C como glibc o UCRT siempre vienen con el compilador y traducen las funciones de C estándar a llamadas que el sistema operativo entiende. POSIX es un estándar en Linux que glibc implementa; en Windows, la libc traduce a Win32 API.”
