@@ -23,3 +23,12 @@ operativo.
 Por ello LIBC permite que funciones tan simples como imprimir por pantalla lo entienda tanto linux como windows. esto es importante vamos a ver, cunado tu te instalas el compilador te viene esa libreria libc¿cierto? pues 
 es importante recordar que ese compilador puede ser para linux o para windows, y por lo tanto esa libc tambien puede ser para linuxo para debian o mac o cualquier so.
 
+Lo importante aqui es entender que al igual que existen varios compiladores distintos, por lógica se entiende que tambien hay libc´s distintas¿cierto? y que cada libc esta hecha para funcinar con un sistema operativo.
+
+Seré clarito, si yo tengo un compilador para Windows,entonces voy a tener un libc que sepa traducir las funciones estandar de C a fuciones que entienda solamente el sistema operativo Windows.Si yo, con ese mismo compilador y libc, 
+intentase compilarlo en linux,ademas de otros problemas que no importan, el cargadador(o compilador,no me acuerdo quien) va a coger esa función C estandar, la va a traducir a una función entendible para windows y entonces el sistema 
+oeprativo LINUX no va saber que narices significa eso. por lo tanto crasheo TOTAL.
+
+resumen: 
+COMPILADOR WINDOWS--LIBC PARA WINDOWS--> SO WINDOWS/
+COMPILADOR DEBIAN--LIBC PARA DEBIAN--->SO LINUX
