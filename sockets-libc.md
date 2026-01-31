@@ -35,3 +35,11 @@ COMPILADOR DEBIAN--LIBC PARA DEBIAN--->SO LINUX
 
 
 ## “Las librerías C como glibc o UCRT siempre vienen con el compilador y traducen las funciones de C estándar a llamadas que el sistema operativo entiende. POSIX es un estándar en Linux que glibc implementa; en Windows, la libc traduce a Win32 API.”
+
+
+realmente cuando instalamos este tipo de cosas en nuestro ordenador, gran parte de las veces no instalamos el libc solamente, a menudo se instala lo que se conoce como SDK(software development kit) que no es mas que un conjunto de archivos necesarios para que la compilaciíon de nuestro codigo sea exitosa. 
+
+SObre esto cabe señalar que en distribuciones como Linux, la mayoria de las veces ya viene instalado todo, pero cuando no lo esta, al isntalar el LINUX SDK, se nos descarga los headers necesarios, glibc y el compilador en si.
+
+Por otro lado, en windows, al instalar el WINDOWS SDK, solamente se nos instala los headers y el libc correspondiente, pero como puedes observar el compilador no entra dentro del SDK, es decir se debe de instalar a parte. 
+En cuanto a la compatibilidad entre SDK Y compilador windows, no deberia de darnos problemas siempre y cuando no se utilicen versiones muy antiguas.
