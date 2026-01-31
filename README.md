@@ -16,7 +16,7 @@ Estas librerías forman parte **exclusiva de la API Win32**.
 
 ---
 
-## 🆚 Windows vs Linux (concepto clave)
+## 🆚 Windows vs Linux
 
 WinSock existe porque **Windows y Linux NO tratan los sockets igual**.
 
@@ -81,7 +81,9 @@ Syscalls
 Kernel (TCP/IP)
 ```
 
-🔴 **El stack TCP/IP vive realmente en el kernel**, no en WinSock.
+🔴 **El stack TCP/IP vive realmente en el kernel**, no en WinSock.Cabe recalcar que lo que 
+el kernel nos devuelve para poder interactuar con los sockets creados es un fd. pero !!OJO¡¡SOLO EN LINUX, en windows 
+es diferente
 
 ---
 
