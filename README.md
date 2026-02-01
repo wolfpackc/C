@@ -83,7 +83,7 @@ Kernel (TCP/IP)
 
 🔴 **El stack TCP/IP vive realmente en el kernel**, no en WinSock.Cabe recalcar que lo que 
 el kernel nos devuelve para poder interactuar con los sockets creados es un fd. pero !!OJO¡¡SOLO EN LINUX, en windows 
-es diferente
+se utilizan los handles
 
 ---
 
