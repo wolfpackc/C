@@ -6,8 +6,8 @@
 //La siguiente burbuja la podemos llamar libc de windows,tambien conocidas como MSVCRT/UCRT, diciendolo desde una 
 //forma abstracta podemos decir que se trata de un cerebro/traductor que recibe funcines de la burbuja "C estandar" y 
 //las traduce a funciones que la API de windows puede entender. POr ejemplo, si ponemos fprintf eso llega a manos de "libc de
-// windows" y lo codifica a writeConsole(blablabla). Una vez traducido se envia al sistema operativa para que lo digiera y lo 
-//convierta a NTwriteConsole(blablabla)
+// windows" y lo codifica a writeFile(blablabla). Una vez traducido se envia al sistema operativa para que lo digiera y lo 
+//convierta a NTwriteFile(blablabla)
 //
 //Cabe señalar que en linux... tambien dispone de una API propia que es capaz de hacer exactamente lo mismo que la API DE WINDOWS
 //la diferencia es que no "expulsará "lo mismo dado que ambos sistemas operativos no hablan el mismo idioma*
