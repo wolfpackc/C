@@ -48,6 +48,6 @@ int main(int argc, char **argv) {
         &written,         // bytes escritos
         NULL
     );
-
+//como se pueder ver es mas tedioso
     return 0;
 }
