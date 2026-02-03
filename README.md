@@ -28,7 +28,7 @@ Linux sigue el modelo UNIX clásico:
 Sockets = File Descriptors
 ```
 
-Por eso utiliza:
+Por eso utiliza:n
 
 ➡️ **POSIX + glibc**
 
