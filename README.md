@@ -1,18 +1,17 @@
 
 ---
 
-# 🧠 WinSock — ¿Dónde vive y cómo funciona realmente?
+#  WinSock
 
-## 📍 ¿Dónde vive WinSock?
+##  ¿Dónde vive WinSock?
 
-👉 **User Mode**
+vive en dlls de windows->
 
 Principalmente en las siguientes DLLs:
 
-➡️ `ws2_32.dll`
-➡️ `mswsock.dll`
+➡️ `ws2_32.dll`(win32 api)
 
-Estas librerías forman parte **exclusiva de la API Win32**.
+➡️ `mswsock.dll`(win32 api)
 
 ---
 
@@ -62,8 +61,6 @@ Kernel TCP/IP
 
 > **El estándar C NO define funciones para sockets**
 
-❌ No existen en el estándar C
-✅ Existen en **APIs específicas de cada sistema operativo**
 
 ---
 
