@@ -4,7 +4,7 @@
 #  WinSock
 
 ##  ¿Dónde vive WinSock?
-
+xc
 vive en dlls de windows->
 
 Principalmente en las siguientes DLLs:
