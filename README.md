@@ -505,16 +505,3 @@ Resultado final:
 
 ---
 
-## 8. Resumen del capítulo
-
-Código fuente
-→ Preprocesador
-→ IR
-→ Ensamblador
-→ Objetos
-→ Linker
-→ Ejecutable
-
-WinSock no es una comodidad ni una capa artificial: es la consecuencia directa del diseño interno de Windows. Comprender esta diferencia es clave para escribir software de red serio y multiplataforma.
-
----
